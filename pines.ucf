@@ -1,0 +1,17 @@
+#Reloj
+net "clk" loc = "E7";
+#Entrada en Paralelo
+net "salidaTotal(0)" loc = "M11";
+net "salidaTotal(1)" loc = "M6";
+net "salidaTotal(2)" loc = "M4";
+net "salidaTotal(3)" loc = "P13";
+net "salidaTotal(4)" loc = "R9";
+net "salidaTotal(5)" loc = "P7";
+net "salidaTotal(6)" loc = "R4";
+net "salidaTotal(7)" loc = "N1";
+#Salida al servomotor
+net "sal" loc = "C4";
+net "led" loc = "E4";
+#RS232
+net "o_RX_DV" loc = "D6";
+net "Rx" loc = "C8";
